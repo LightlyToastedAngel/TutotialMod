@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.toast.tutorialmod.block.ModBlocks;
 import net.toast.tutorialmod.item.ModItems;
 
@@ -35,9 +36,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUBY_SWORD, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_HOE, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.RUBY_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_BOOTS, Models.GENERATED);
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_BOOTS));
     }
 }
