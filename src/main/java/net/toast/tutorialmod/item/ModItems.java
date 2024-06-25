@@ -13,6 +13,60 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
+    public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
+    public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
+
+    public static final Item ENDIUM_INGOT = registerItem("endium_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_ENDIUM = registerItem("raw_endium", new Item(new FabricItemSettings()));
+
+    public static final Item CHROMIUM_INGOT = registerItem("chromium_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_CHROMIUM = registerItem("raw_chromium", new Item(new FabricItemSettings()));
+
+    public static final Item ULTIMITE_CRYSTAL = registerItem("ultimite_crystal", new Item(new FabricItemSettings()));
+
+
+    public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe",
+            new PickaxeItem(ModToolMaterial.SAPPHIRE, 2, -2.8f, new FabricItemSettings().maxCount(1)));
+    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe",
+            new AxeItem(ModToolMaterial.SAPPHIRE, 5.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel",
+            new ShovelItem(ModToolMaterial.SAPPHIRE, 1.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe",
+            new HoeItem(ModToolMaterial.SAPPHIRE, -3, 0.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword",
+            new SwordItem(ModToolMaterial.SAPPHIRE, 3, -2.4f, new FabricItemSettings().maxCount(1)));
+
+    public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
+    public static final Item CHROMIUM_PICKAXE = registerItem("chromium_pickaxe",
+            new PickaxeItem(ModToolMaterial.CHROMIUM, 2, -2.8f, new FabricItemSettings().maxCount(1)));
+    public static final Item CHROMIUM_AXE = registerItem("chromium_axe",
+            new AxeItem(ModToolMaterial.CHROMIUM, 5.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item CHROMIUM_SHOVEL = registerItem("chromium_shovel",
+            new ShovelItem(ModToolMaterial.CHROMIUM, 1.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item CHROMIUM_HOE = registerItem("chromium_hoe",
+            new HoeItem(ModToolMaterial.CHROMIUM, -3, 0.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item CHROMIUM_SWORD = registerItem("chromium_sword",
+            new SwordItem(ModToolMaterial.CHROMIUM, 3, -2.4f, new FabricItemSettings().maxCount(1)));
+
+    public static final Item CHROMIUM_HELMET = registerItem("chromium_helmet",
+            new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item CHROMIUM_CHESTPLATE = registerItem("chromium_chestplate",
+            new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item CHROMIUM_LEGGINGS = registerItem("chromium_leggings",
+            new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item CHROMIUM_BOOTS = registerItem("chromium_boots",
+            new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
             new PickaxeItem(ModToolMaterial.RUBY, 2, -2.8f, new FabricItemSettings().maxCount(1)));
     public static final Item RUBY_AXE = registerItem("ruby_axe",
@@ -32,6 +86,48 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
+    public static final Item ENDIUM_PICKAXE = registerItem("endium_pickaxe",
+            new PickaxeItem(ModToolMaterial.ENDIUM, 2, -2.8f, new FabricItemSettings().maxCount(1)));
+    public static final Item ENDIUM_AXE = registerItem("endium_axe",
+            new AxeItem(ModToolMaterial.ENDIUM, 5.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item ENDIUM_SHOVEL = registerItem("endium_shovel",
+            new ShovelItem(ModToolMaterial.ENDIUM, 1.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item ENDIUM_HOE = registerItem("endium_hoe",
+            new HoeItem(ModToolMaterial.ENDIUM, -3, 0.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item ENDIUM_SWORD = registerItem("endium_sword",
+            new SwordItem(ModToolMaterial.ENDIUM, 3, -2.4f, new FabricItemSettings().maxCount(1)));
+
+    public static final Item ENDIUM_HELMET = registerItem("endium_helmet",
+            new ArmorItem(ModArmorMaterials.ENDIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item ENDIUM_CHESTPLATE = registerItem("endium_chestplate",
+            new ArmorItem(ModArmorMaterials.ENDIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item ENDIUM_LEGGINGS = registerItem("endium_leggings",
+            new ArmorItem(ModArmorMaterials.ENDIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item ENDIUM_BOOTS = registerItem("endium_boots",
+            new ArmorItem(ModArmorMaterials.ENDIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
+    public static final Item ULTIMITE_PICKAXE = registerItem("ultimite_pickaxe",
+            new PickaxeItem(ModToolMaterial.ULTIMITE, 2, -2.8f, new FabricItemSettings().maxCount(1)));
+    public static final Item ULTIMITE_AXE = registerItem("ultimite_axe",
+            new AxeItem(ModToolMaterial.ULTIMITE, 5.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item ULTIMITE_SHOVEL = registerItem("ultimite_shovel",
+            new ShovelItem(ModToolMaterial.ULTIMITE, 1.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item ULTIMITE_HOE = registerItem("ultimite_hoe",
+            new HoeItem(ModToolMaterial.ULTIMITE, -3, 0.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item ULTIMITE_SWORD = registerItem("ultimite_sword",
+            new SwordItem(ModToolMaterial.ULTIMITE, 3, -2.4f, new FabricItemSettings().maxCount(1)));
+
+    public static final Item ULTIMITE_HELMET = registerItem("ultimite_helmet",
+            new ArmorItem(ModArmorMaterials.ULTIMITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item ULTIMITE_CHESTPLATE = registerItem("ultimite_chestplate",
+            new ArmorItem(ModArmorMaterials.ULTIMITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item ULTIMITE_LEGGINGS = registerItem("ultimite_leggings",
+            new ArmorItem(ModArmorMaterials.ULTIMITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item ULTIMITE_BOOTS = registerItem("ultimite_boots",
+            new ArmorItem(ModArmorMaterials.ULTIMITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {

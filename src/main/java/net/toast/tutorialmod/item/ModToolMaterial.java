@@ -1,16 +1,21 @@
 package net.toast.tutorialmod.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.tag.ItemTags;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
     RUBY(5, 1861, 9.0f, 4.5f, 20,
-            () -> Ingredient.ofItems(ModItems.RUBY));
+            () -> Ingredient.ofItems(ModItems.RUBY)),
+    SAPPHIRE(5, 1861, 9.0f, 4.5f, 20,
+            () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
+    ENDIUM(5, 1861, 9.0f, 4.5f, 20,
+            () -> Ingredient.ofItems(ModItems.ENDIUM_INGOT)),
+    CHROMIUM(5, 1861, 9.0f, 4.5f, 20,
+            () -> Ingredient.ofItems(ModItems.CHROMIUM_INGOT)),
+    ULTIMITE(5, 1861, 9.0f, 4.5f, 20,
+            () -> Ingredient.ofItems(ModItems.ULTIMITE_CRYSTAL));
 
     private final int miningLevel;
     private final int itemDurability;
