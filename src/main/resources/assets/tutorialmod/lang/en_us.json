@@ -1,6 +1,14 @@
 {
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
+  "item.tutorialmod.chromium_ingot": "Chromium Ingot",
+  "item.tutorialmod.raw_chromium": "Raw Chromium",
+  "item.tutorialmod.sapphire": "Sapphire",
+  "item.tutorialmod.raw_sapphire": "Raw Sapphire",
+  "item.tutorialmod.endium_ingot": "Endium Ingot",
+  "item.tutorialmod.raw_endium": "Raw Endium",
+  "item.tutorialmod.ultimite_crystal": "Ultimite Crystal",
+
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
