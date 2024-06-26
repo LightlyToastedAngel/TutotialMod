@@ -19,8 +19,8 @@ public class ModItems {
     public static final Item ENDIUM_INGOT = registerItem("endium_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_ENDIUM = registerItem("raw_endium", new Item(new FabricItemSettings()));
 
-    public static final Item CHROMIUM_INGOT = registerItem("chromium_ingot", new Item(new FabricItemSettings()));
-    public static final Item RAW_CHROMIUM = registerItem("raw_chromium", new Item(new FabricItemSettings()));
+    public static final Item AETHERIUM_INGOT = registerItem("aetherium_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_AETHERIUM = registerItem("raw_aetherium", new Item(new FabricItemSettings()));
 
     public static final Item ULTIMITE_CRYSTAL = registerItem("ultimite_crystal", new Item(new FabricItemSettings()));
 
@@ -46,25 +46,25 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
-    public static final Item CHROMIUM_PICKAXE = registerItem("chromium_pickaxe",
-            new PickaxeItem(ModToolMaterial.CHROMIUM, 2, -2.8f, new FabricItemSettings().maxCount(1)));
-    public static final Item CHROMIUM_AXE = registerItem("chromium_axe",
-            new AxeItem(ModToolMaterial.CHROMIUM, 5.5f, -3.0f, new FabricItemSettings().maxCount(1)));
-    public static final Item CHROMIUM_SHOVEL = registerItem("chromium_shovel",
-            new ShovelItem(ModToolMaterial.CHROMIUM, 1.5f, -3.0f, new FabricItemSettings().maxCount(1)));
-    public static final Item CHROMIUM_HOE = registerItem("chromium_hoe",
-            new HoeItem(ModToolMaterial.CHROMIUM, -3, 0.0f, new FabricItemSettings().maxCount(1)));
-    public static final Item CHROMIUM_SWORD = registerItem("chromium_sword",
-            new SwordItem(ModToolMaterial.CHROMIUM, 3, -2.4f, new FabricItemSettings().maxCount(1)));
+    public static final Item AETHERIUM_PICKAXE = registerItem("aetherium_pickaxe",
+            new PickaxeItem(ModToolMaterial.AETHERIUM, 2, -2.8f, new FabricItemSettings().maxCount(1)));
+    public static final Item AETHERIUM_AXE = registerItem("aetherium_axe",
+            new AxeItem(ModToolMaterial.AETHERIUM, 5.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item AETHERIUM_SHOVEL = registerItem("aetherium_shovel",
+            new ShovelItem(ModToolMaterial.AETHERIUM, 1.5f, -3.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item AETHERIUM_HOE = registerItem("aetherium_hoe",
+            new HoeItem(ModToolMaterial.AETHERIUM, -3, 0.0f, new FabricItemSettings().maxCount(1)));
+    public static final Item AETHERIUM_SWORD = registerItem("aetherium_sword",
+            new SwordItem(ModToolMaterial.AETHERIUM, 3, -2.4f, new FabricItemSettings().maxCount(1)));
 
-    public static final Item CHROMIUM_HELMET = registerItem("chromium_helmet",
-            new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item CHROMIUM_CHESTPLATE = registerItem("chromium_chestplate",
-            new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item CHROMIUM_LEGGINGS = registerItem("chromium_leggings",
-            new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item CHROMIUM_BOOTS = registerItem("chromium_boots",
-            new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item AETHERIUM_HELMET = registerItem("aetherium_helmet",
+            new ArmorItem(ModArmorMaterials.AETHERIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item AETHERIUM_CHESTPLATE = registerItem("aetherium_chestplate",
+            new ArmorItem(ModArmorMaterials.AETHERIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item AETHERIUM_LEGGINGS = registerItem("aetherium_leggings",
+            new ArmorItem(ModArmorMaterials.AETHERIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item AETHERIUM_BOOTS = registerItem("aetherium_boots",
+            new ArmorItem(ModArmorMaterials.AETHERIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",

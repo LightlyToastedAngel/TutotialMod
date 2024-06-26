@@ -12,8 +12,8 @@ public enum ModToolMaterial implements ToolMaterial {
             () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
     ENDIUM(5, 1861, 9.0f, 4.5f, 20,
             () -> Ingredient.ofItems(ModItems.ENDIUM_INGOT)),
-    CHROMIUM(5, 1861, 9.0f, 4.5f, 20,
-            () -> Ingredient.ofItems(ModItems.CHROMIUM_INGOT)),
+    AETHERIUM(5, 1861, 9.0f, 4.5f, 20,
+            () -> Ingredient.ofItems(ModItems.AETHERIUM_INGOT)),
     ULTIMITE(5, 1861, 9.0f, 4.5f, 20,
             () -> Ingredient.ofItems(ModItems.ULTIMITE_CRYSTAL));
 

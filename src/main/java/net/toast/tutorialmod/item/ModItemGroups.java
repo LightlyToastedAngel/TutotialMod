@@ -12,14 +12,17 @@ import net.toast.tutorialmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(TutorialMod.MOD_ID, "ruby"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
+            new Identifier(TutorialMod.MOD_ID, "ultimite"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ultimite"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.CHROMIUM_INGOT);
 
+                        entries.add(ModItems.AETHERIUM_INGOT);
+                        entries.add(ModItems.RAW_AETHERIUM);
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
 
+                        entries.add(ModBlocks.AETHERIUM_BLOCK);
+                        entries.add(ModBlocks.RAW_AETHERIUM_BLOCK);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
@@ -41,16 +44,16 @@ public class ModItemGroups {
                         entries.add(ModItems.SAPPHIRE_BOOTS);
 
 
-                        entries.add(ModItems.CHROMIUM_PICKAXE);
-                        entries.add(ModItems.CHROMIUM_AXE);
-                        entries.add(ModItems.CHROMIUM_SHOVEL);
-                        entries.add(ModItems.CHROMIUM_HOE);
-                        entries.add(ModItems.CHROMIUM_SWORD);
+                        entries.add(ModItems.AETHERIUM_PICKAXE);
+                        entries.add(ModItems.AETHERIUM_AXE);
+                        entries.add(ModItems.AETHERIUM_SHOVEL);
+                        entries.add(ModItems.AETHERIUM_HOE);
+                        entries.add(ModItems.AETHERIUM_SWORD);
 
-                        entries.add(ModItems.CHROMIUM_HELMET);
-                        entries.add(ModItems.CHROMIUM_CHESTPLATE);
-                        entries.add(ModItems.CHROMIUM_LEGGINGS);
-                        entries.add(ModItems.CHROMIUM_BOOTS);
+                        entries.add(ModItems.AETHERIUM_HELMET);
+                        entries.add(ModItems.AETHERIUM_CHESTPLATE);
+                        entries.add(ModItems.AETHERIUM_LEGGINGS);
+                        entries.add(ModItems.AETHERIUM_BOOTS);
 
 
                         entries.add(ModItems.RUBY_PICKAXE);
@@ -86,7 +89,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ULTIMITE_HELMET);
                         entries.add(ModItems.ULTIMITE_CHESTPLATE);
                         entries.add(ModItems.ULTIMITE_LEGGINGS);
-                        entries.add(ModItems.CHROMIUM_BOOTS);
+                        entries.add(ModItems.ULTIMITE_BOOTS);
 
                     }).build());
 

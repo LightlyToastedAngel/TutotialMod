@@ -1,15 +1,16 @@
 {
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
-  "item.tutorialmod.chromium_ingot": "Chromium Ingot",
-  "item.tutorialmod.raw_chromium": "Raw Chromium",
+  "item.tutorialmod.aetherium_ingot": "Aetherium Ingot",
+  "item.tutorialmod.raw_aetherium": "Raw Aetherium",
   "item.tutorialmod.sapphire": "Sapphire",
   "item.tutorialmod.raw_sapphire": "Raw Sapphire",
   "item.tutorialmod.endium_ingot": "Endium Ingot",
   "item.tutorialmod.raw_endium": "Raw Endium",
   "item.tutorialmod.ultimite_crystal": "Ultimite Crystal",
 
-
+  "block.tutorialmod.aetherium_block": "Block of Aetherium",
+  "block.tutorialmod.raw_aetherium_block": "Block of Raw Aetherium",
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
 
@@ -30,16 +31,16 @@
   "item.tutorialmod.sapphire_boots": "Sapphire Boots",
 
 
-  "item.tutorialmod.chromium_pickaxe": "Chromium Pickaxe",
-  "item.tutorialmod.chromium_axe": "Chromium Axe",
-  "item.tutorialmod.chromium_shovel": "Chromium Shovel",
-  "item.tutorialmod.chromium_hoe": "Chromium Hoe",
-  "item.tutorialmod.chromium_sword": "Chromium Sword",
+  "item.tutorialmod.aetherium_pickaxe": "Aetherium Pickaxe",
+  "item.tutorialmod.aetherium_axe": "Aetherium Axe",
+  "item.tutorialmod.aetherium_shovel": "Aetherium Shovel",
+  "item.tutorialmod.aetherium_hoe": "Aetherium Hoe",
+  "item.tutorialmod.aetherium_sword": "Aetherium Sword",
 
-  "item.tutorialmod.chromium_helmet": "Chromium Helmet",
-  "item.tutorialmod.chromium_chestplate": "Chromium Chestplate",
-  "item.tutorialmod.chromium_leggings": "Chromium Leggings",
-  "item.tutorialmod.chromium_boots": "Chromium Boots",
+  "item.tutorialmod.aetherium_helmet": "Aetherium Helmet",
+  "item.tutorialmod.aetherium_chestplate": "Aetherium Chestplate",
+  "item.tutorialmod.aetherium_leggings": "Aetherium Leggings",
+  "item.tutorialmod.aetherium_boots": "Aetherium Boots",
 
 
   "item.tutorialmod.ruby_pickaxe": "Ruby Pickaxe",
@@ -77,5 +78,5 @@
   "item.tutorialmod.ultimite_leggings": "Ultimite Leggings",
   "item.tutorialmod.ultimite_boots": "Ultimite Boots",
 
-  "itemgroup.ruby": "Ruby Tutorial Group"
+  "itemgroup.ultimite": "Ultimite"
 }

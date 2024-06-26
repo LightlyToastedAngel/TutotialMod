@@ -15,6 +15,10 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.toast.tutorialmod.TutorialMod;
 
 public class ModBlocks {
+    public static final Block AETHERIUM_BLOCK = registerBlock("aetherium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
+    public static final Block RAW_AETHERIUM_BLOCK = registerBlock("raw_aetherium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",

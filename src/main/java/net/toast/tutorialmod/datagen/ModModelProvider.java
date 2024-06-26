@@ -16,6 +16,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AETHERIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_AETHERIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
 
@@ -27,8 +29,15 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.SAPPHIRE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_SAPPHIRE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AETHERIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_AETHERIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ENDIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ULTIMITE_CRYSTAL, Models.GENERATED);
 
 
         itemModelGenerator.register(ModItems.SAPPHIRE_AXE, Models.HANDHELD);
@@ -43,16 +52,16 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_BOOTS));
 
 
-        itemModelGenerator.register(ModItems.CHROMIUM_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.CHROMIUM_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.CHROMIUM_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.CHROMIUM_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.CHROMIUM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHERIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHERIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHERIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHERIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHERIUM_HOE, Models.HANDHELD);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHROMIUM_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHROMIUM_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHROMIUM_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHROMIUM_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHERIUM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHERIUM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHERIUM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHERIUM_BOOTS));
 
 
         itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
