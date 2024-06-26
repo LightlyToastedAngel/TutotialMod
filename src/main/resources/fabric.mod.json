@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
+	"id": "taat",
 	"version": "${version}",
 	"name": "Toast's Armor and Tools",
 	"description": "This is a mod that I used to learn making minecraft mods! It adds custom armor, tools and blocks!",
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorialmod/icon.png",
+	"icon": "assets/taat/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.toast.tutorialmod.TutorialMod"
+			"net.toast.taat.TAaT"
 		],
 		"client": [
-			"net.toast.tutorialmod.TutorialModClient"
+			"net.toast.taat.TAaTClient"
 		],
 		"fabric-datagen": [
-			"net.toast.tutorialmod.TutorialModDataGenerator"
+			"net.toast.taat.TAaTDataGenerator"
 		]
 	},
 	"mixins": [
-		"tutorialmod.mixins.json"
+		"taat.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
