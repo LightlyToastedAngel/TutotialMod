@@ -1,0 +1,82 @@
+{
+  "item.taat.ruby": "Ruby",
+  "item.taat.raw_ruby": "Raw Ruby",
+  "item.taat.aetherium_ingot": "Aetherium Ingot",
+  "item.taat.raw_aetherium": "Raw Aetherium",
+  "item.taat.sapphire": "Sapphire",
+  "item.taat.raw_sapphire": "Raw Sapphire",
+  "item.taat.endium_ingot": "Endium Ingot",
+  "item.taat.raw_endium": "Raw Endium",
+  "item.taat.ultimite_crystal": "Ultimite Crystal",
+
+  "block.taat.aetherium_block": "Block of Aetherium",
+  "block.taat.raw_aetherium_block": "Block of Raw Aetherium",
+  "block.taat.ruby_block": "Block of Ruby",
+  "block.taat.raw_ruby_block": "Block of Raw Ruby",
+
+  "block.taat.ruby_ore": "Ruby Ore",
+  "block.taat.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.taat.nether_ruby_ore": "Nether Ruby Ore",
+  "block.taat.end_stone_ruby_ore": "End Stone Ruby Ore",
+
+  "item.taat.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.taat.sapphire_axe": "Sapphire Axe",
+  "item.taat.sapphire_shovel": "Sapphire Shovel",
+  "item.taat.sapphire_hoe": "Sapphire Hoe",
+  "item.taat.sapphire_sword": "Sapphire Sword",
+
+  "item.taat.sapphire_helmet": "Sapphire Helmet",
+  "item.taat.sapphire_chestplate": "Sapphire Chestplate",
+  "item.taat.sapphire_leggings": "Sapphire Leggings",
+  "item.taat.sapphire_boots": "Sapphire Boots",
+
+
+  "item.taat.aetherium_pickaxe": "Aetherium Pickaxe",
+  "item.taat.aetherium_axe": "Aetherium Axe",
+  "item.taat.aetherium_shovel": "Aetherium Shovel",
+  "item.taat.aetherium_hoe": "Aetherium Hoe",
+  "item.taat.aetherium_sword": "Aetherium Sword",
+
+  "item.taat.aetherium_helmet": "Aetherium Helmet",
+  "item.taat.aetherium_chestplate": "Aetherium Chestplate",
+  "item.taat.aetherium_leggings": "Aetherium Leggings",
+  "item.taat.aetherium_boots": "Aetherium Boots",
+
+
+  "item.taat.ruby_pickaxe": "Ruby Pickaxe",
+  "item.taat.ruby_axe": "Ruby Axe",
+  "item.taat.ruby_shovel": "Ruby Shovel",
+  "item.taat.ruby_hoe": "Ruby Hoe",
+  "item.taat.ruby_sword": "Ruby Sword",
+
+  "item.taat.ruby_helmet": "Ruby Helmet",
+  "item.taatruby_chestplate": "Ruby Chestplate",
+  "item.taat.ruby_leggings": "Ruby Leggings",
+  "item.taat.ruby_boots": "Ruby Boots",
+
+
+  "item.taat.endium_pickaxe": "Endium Pickaxe",
+  "item.taat.endium_axe": "Endium Axe",
+  "item.taat.endium_shovel": "Endium Shovel",
+  "item.taat.endium_hoe": "Endium Hoe",
+  "item.taat.endium_sword": "Endium Sword",
+
+  "item.taat.endium_helmet": "Endium Helmet",
+  "item.taat.endium_chestplate": "Endium Chestplate",
+  "item.taat.endium_leggings": "Endium Leggings",
+  "item.taat.endium_boots": "Endium Boots",
+
+
+  "item.taat.ultimite_pickaxe": "Ultimite Pickaxe",
+  "item.taat.ultimite_axe": "Ultimite Axe",
+  "item.taat.ultimite_shovel": "Ultimite Shovel",
+  "item.taat.ultimite_hoe": "Ultimite Hoe",
+  "item.taat.ultimite_sword": "Ultimite Sword",
+
+  "item.taat.ultimite_helmet": "Ultimite Helmet",
+  "item.taat.ultimite_chestplate": "Ultimite Chestplate",
+  "item.taat.ultimite_leggings": "Ultimite Leggings",
+  "item.taat.ultimite_boots": "Ultimite Boots",
+
+  "itemgroup.ultimite": "Ultimite"
+}
