@@ -19,24 +19,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.RUBY_BLOCK)
-                .add(ModBlocks.RAW_RUBY_BLOCK)
-                .add(ModBlocks.DEEPSLATE_RUBY_ORE)
-                .add(ModBlocks.END_STONE_RUBY_ORE)
-                .add(ModBlocks.NETHER_RUBY_ORE)
-                .add(ModBlocks.RUBY_ORE);
-
-        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.END_STONE_RUBY_ORE);
-
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SAPPHIRE_BLOCK)
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
-                .add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                .add(ModBlocks.SAPPHIRE_ORE);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+        ;
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SAPPHIRE_BLOCK)
+                .add(ModBlocks.RUBY_BLOCK)
+                .add(ModBlocks.SAPPHIRE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.NETHER_RUBY_ORE)
-                .add(ModBlocks.RAW_RUBY_BLOCK);
+                .add(ModBlocks.RUBY_ORE);
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
         ;

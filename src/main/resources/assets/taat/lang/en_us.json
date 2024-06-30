@@ -1,23 +1,21 @@
 {
   "item.taat.ruby": "Ruby",
-  "item.taat.raw_ruby": "Raw Ruby",
+  "item.taat.ruby_shard": "Ruby Shard",
   "item.taat.aetherium_ingot": "Aetherium Ingot",
   "item.taat.raw_aetherium": "Raw Aetherium",
   "item.taat.sapphire": "Sapphire",
-  "item.taat.raw_sapphire": "Raw Sapphire",
+  "item.taat.sapphire_shard": "Sapphire Shard",
   "item.taat.endium_ingot": "Endium Ingot",
   "item.taat.raw_endium": "Raw Endium",
   "item.taat.ultimite_crystal": "Ultimite Crystal",
 
+  "block.taat.sapphire_ore": "Sapphire Ore",
+  "block.taat.ruby_ore": "Ruby Ore",
+
   "block.taat.aetherium_block": "Block of Aetherium",
   "block.taat.raw_aetherium_block": "Block of Raw Aetherium",
+  "block.taat.sapphire_block": "Block of Sapphire",
   "block.taat.ruby_block": "Block of Ruby",
-  "block.taat.raw_ruby_block": "Block of Raw Ruby",
-
-  "block.taat.ruby_ore": "Ruby Ore",
-  "block.taat.deepslate_ruby_ore": "Deepslate Ruby Ore",
-  "block.taat.nether_ruby_ore": "Nether Ruby Ore",
-  "block.taat.end_stone_ruby_ore": "End Stone Ruby Ore",
 
   "item.taat.sapphire_pickaxe": "Sapphire Pickaxe",
   "item.taat.sapphire_axe": "Sapphire Axe",

@@ -18,23 +18,21 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AETHERIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_AETHERIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RUBY_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_RUBY_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_RUBY_ORE);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.SAPPHIRE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_SAPPHIRE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SAPPHIRE_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.AETHERIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_AETHERIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ENDIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.ULTIMITE_CRYSTAL, Models.GENERATED);

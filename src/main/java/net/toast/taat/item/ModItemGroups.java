@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.toast.taat.TAaT;
 import net.toast.taat.block.ModBlocks;
 
+
 public class ModItemGroups {
     public static final ItemGroup ULTIMITE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(TAaT.MOD_ID, "ultimite"),
@@ -19,18 +20,17 @@ public class ModItemGroups {
                         entries.add(ModItems.AETHERIUM_INGOT);
                         entries.add(ModItems.RAW_AETHERIUM);
                         entries.add(ModItems.RUBY);
-                        entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModItems.RUBY_SHARD);
+                        entries.add(ModItems.SAPPHIRE);
+                        entries.add(ModItems.SAPPHIRE_SHARD);
 
                         entries.add(ModBlocks.AETHERIUM_BLOCK);
                         entries.add(ModBlocks.RAW_AETHERIUM_BLOCK);
+                        entries.add(ModBlocks.SAPPHIRE_BLOCK);
                         entries.add(ModBlocks.RUBY_BLOCK);
-                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
                         entries.add(ModBlocks.RUBY_ORE);
-                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
-                        entries.add(ModBlocks.NETHER_RUBY_ORE);
-                        entries.add(ModBlocks.END_STONE_RUBY_ORE);
-
 
                         entries.add(ModItems.SAPPHIRE_PICKAXE);
                         entries.add(ModItems.SAPPHIRE_AXE);

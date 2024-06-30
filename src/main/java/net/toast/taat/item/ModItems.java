@@ -9,12 +9,15 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.toast.taat.TAaT;
 
+import static net.minecraft.item.Items.DIAMOND;
+import static net.minecraft.item.Items.IRON_INGOT;
+
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+    public static final Item RUBY_SHARD = registerItem("ruby_shard", new Item(new FabricItemSettings()));
 
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
-    public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRE_SHARD = registerItem("sapphire_shard", new Item(new FabricItemSettings()));
 
     public static final Item ENDIUM_INGOT = registerItem("endium_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_ENDIUM = registerItem("raw_endium", new Item(new FabricItemSettings()));
@@ -131,8 +134,8 @@ public class ModItems {
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RUBY);
-        entries.add(RAW_RUBY);
+        entries.addAfter(DIAMOND, RUBY);
+        entries.addAfter(RUBY, SAPPHIRE);
     }
 
     private static Item registerItem(String name, Item item) {
